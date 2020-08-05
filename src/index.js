@@ -7,7 +7,12 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import CadastroVideo from './pages/cadastro/Video/index';
 import CadastroCategoria from './pages/cadastro/Categoria';
 
-const Pagina404 = () => (<div>Página 404</div>)
+const Pagina404 = () => (
+  <div>
+      <h1>Sorry!! Erro404!! </h1>
+  </div>
+
+)
 
 ReactDOM.render(
 
