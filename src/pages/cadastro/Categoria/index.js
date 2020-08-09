@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
+import FormField from '../../../components/FormField'
 
 function CadastroCategoria() {
     const valoresIniciais = {
@@ -22,9 +23,10 @@ function CadastroCategoria() {
     }
 
     function handleChange(infosDoEvento) {
+        const {getAttribute, value} = infosDoEvento.target;
         setValue(
-            infosDoEvento.target.getAttribute('name'),
-            infosDoEvento.target.value
+            getAttribute('name'),
+            value
         );
     }
 
@@ -45,23 +47,16 @@ function CadastroCategoria() {
                 setValues(valoresIniciais)
 
             }}>
-                <div>
-
-                    <label>
-                        Nome da Categoria:  
-                        <input 
-                            type="text" 
-                            value={values.nome}
-                            name="nome"
-                            onChange={handleChange}
-                        />
-
-                    </label>
-                    
-
-                </div>
+                <FormField 
+                    label="Nome da Categoria:"
+                    type="text"
+                    name="nome"
+                    values={values.nome}
+                    onChange={handleChange}
+                />
 
                 <div>
+
                     <label>
                         Descrição:  
                         <textarea 
@@ -73,22 +68,28 @@ function CadastroCategoria() {
                         /> 
 
                     </label>
-
                 </div>
                 
-                <div>
+                <FormField 
+                    label="Cor:"
+                    type="color"
+                    name="cor"
+                    values={values.cor}
+                    onChange={handleChange}
+                />
+                {/*<div>
+
                     <label>
                         Cor:  
                         <input 
-                            type="color" 
+                             
                             value={values.cor}
                             name="cor"
                             onChange={handleChange}
 
                         />
                     </label>
-                    
-                </div>
+                </div>*/}
 
                 <button>
                     Cadastrar
