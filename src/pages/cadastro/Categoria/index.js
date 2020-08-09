@@ -1,23 +1,111 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 
 function CadastroCategoria() {
+    const valoresIniciais = {
+        nome: '',
+        descricao: '',
+        cor: '#000',
+    }
+    const [categorias, setCategorias] = useState([]);
+    const [values, setValues] = useState(valoresIniciais);
+
+
+    function setValue(chave, valor) {
+
+        //chave: nome, descricao. etc...
+        setValues({
+            ...values,
+            [chave]: valor, //nome: 'valor'
+        })
+    }
+
+    function handleChange(infosDoEvento) {
+        setValue(
+            infosDoEvento.target.getAttribute('name'),
+            infosDoEvento.target.value
+        );
+    }
+
     return (
+
         <PageDefault>
-           <h1>Cadastro de Categoria</h1>
 
-            <form>
-                <label>Nome da Categoria: 
+           <h1>Cadastro de Categoria: {values.nome} </h1>
 
-                    <input type="text" />
+            <form onSubmit={function handleSubmit(infosDoEvento) {
+                infosDoEvento.preventDefault();
 
-                    <button>
-                        Cadastrar
-                    </button>
-                </label>
+                setCategorias([
+                    ...categorias,
+                    values
+                ]);
+
+                setValues(valoresIniciais)
+
+            }}>
+                <div>
+
+                    <label>
+                        Nome da Categoria:  
+                        <input 
+                            type="text" 
+                            value={values.nome}
+                            name="nome"
+                            onChange={handleChange}
+                        />
+
+                    </label>
+                    
+
+                </div>
+
+                <div>
+                    <label>
+                        Descrição:  
+                        <textarea 
+                            type="text" 
+                            value={values.descricao}
+                            name="descricao"
+                            onChange={handleChange}
+
+                        /> 
+
+                    </label>
+
+                </div>
+                
+                <div>
+                    <label>
+                        Cor:  
+                        <input 
+                            type="color" 
+                            value={values.cor}
+                            name="cor"
+                            onChange={handleChange}
+
+                        />
+                    </label>
+                    
+                </div>
+
+                <button>
+                    Cadastrar
+                </button>
+
             </form>
-           
+
+            <ul>
+                {categorias.map((categoria, indice) => {
+                    return (
+                        <li key = {`${categoria} ${indice}`}>
+                            {categoria.nome}
+                        </li>
+                    )
+                })}
+            </ul>
+    
             <Link to="/">
                 Ir para home
             </Link>
