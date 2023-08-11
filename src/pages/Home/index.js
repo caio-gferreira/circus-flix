@@ -16,10 +16,11 @@ function Home() {
         url={dadosIniciais.categorias[0].videos[3].url}
         videoDescription={"Rebirth"} 
       />
-
       <Carousel 
         ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
+        category={
+          // arrumado o carrosel maroto lindo
+          dadosIniciais.categorias[0]}
         />
 
       <Carousel 
