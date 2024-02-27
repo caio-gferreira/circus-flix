@@ -2,7 +2,7 @@ import React from 'react';
 import Menu from '../../components/Menu';
 import BannerMain from '../../components/Banner/'
 import Carousel from '../../components/Carousel';
-// import Footer from '../../components/Footer';
+import Footer from '../../components/Footer';
 import dadosIniciais from '../../data/dados_iniciais.json';
 
 
@@ -42,7 +42,7 @@ function Home() {
         category={dadosIniciais.categorias[4]}
       />
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
