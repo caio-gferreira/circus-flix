@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../img/Logo.png';
-import '../../styles/Menu.styles.js';
+import '../../styles/Menu.css';
 import Button from '../Button/Button';
 
 function Menu() {
