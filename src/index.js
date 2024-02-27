@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
 import Home from './routes/Home/HomePage';
-import Page404 from './components/ErrorPage/PageError';
+import Page404 from './components/Error/PageError';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
