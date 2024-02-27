@@ -1,181 +1,177 @@
 {
-  "categorias": [
-    {
-      "titulo": "Músicas",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
-      "videos": [
-        {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
-        },
-        {
-          "titulo": "Circus Maximus - Live In Japan HD",
-          "url": "https://www.youtube.com/watch?v=qjgskpEkmUA"
-        },
-        {
-          "titulo": "Angra - Make Believe Especial",
-          "url": "https://www.youtube.com/watch?v=4emRhgO2ZqI"
-        },
-        {
-          "titulo": "Running Alone - Angra",
-          "url": "https://www.youtube.com/watch?v=3pMcr-Jn5L0"
-        },
-        {
-          "titulo": "The Scarecrow (feat. Jorn Lande, Michael Kiske, Henjo Richter, Michael Rodenberg)",
-          "url": "https://www.youtube.com/watch?v=Dp78bQ3NAn8"
-        },
-        {
-          "titulo": "DREAM THEATER - Barstool Warrior (OFFICIAL ANIMATION VIDEO",
-          "url": "https://www.youtube.com/watch?v=x9b-Qc8e_vk"
-        },
-        {
-          "titulo": "Dream Theayer - Our New World",
-          "url": "https://www.youtube.com/watch?v=JnLdx2FyNqg"
-        },
-        {
-          "titulo": "Stratovarius - Eagleheart [HD] (official video",
-          "url": "https://www.youtube.com/watch?v=UGJV6cJkFcc"
-        }        
-      ]
-    },
-    {
-      "titulo": "Series",
-      "cor": "#00C86F",
-      "videos": [
-        {
-          "titulo": "Trailer Supernatural 1 Temporada",
-          "url": "https://www.youtube.com/watch?v=CX1Wn5zkfI8"
-        },
-        {
-          "titulo": "The 100 | Season 2 Trailer Promocional | Legendado HD",
-          "url": "https://www.youtube.com/watch?v=n0vrIMcMz9Q"
-        },
-        {
-          "titulo": "F.R.I.E.N.D.S Trailer: Season 1 - 4",
-          "url": "https://www.youtube.com/watch?v=hDNNmeeJs1Q"
-        },
-        {
-          "titulo": "Breaking Bad Trailer (First Season)",
-          "url": "https://www.youtube.com/watch?v=HhesaQXLuRY"
-        }, 
-        {
-          "titulo": "La Casa de Papel - Parte 1 - Trailer Dublado",
-          "url": "https://www.youtube.com/watch?v=yKXYXgo7a3I"
-        },
-        {
-          "titulo": "Vikings - Season 3 Trailer #2",
-          "url": "https://www.youtube.com/watch?v=UQm9torR1K8"
-        }
-      ]
-    },
-
-    {
-      "titulo": "Animes",
-      "cor": "#9cd33b",
-      "videos": [
-        {
-          "titulo": "Naruto Official Trailer",
-          "url": "https://www.youtube.com/watch?v=j2hiC9BmJlQ"
-        },
-        {
-          "titulo": "Trailer - Os Cavaleiros Dos Zodíaco",
-          "url": "https://www.youtube.com/watch?v=hBOYUh7DC6w"
-        },
-        {
-          "titulo": "Dragon Ball GT - Official Trailer",
-          "url": "https://www.youtube.com/watch?v=bKRfxXwtafc"
-        },
-        {
-          "titulo": "Death Note | OFFICIAL TRAILER",
-          "url": "https://www.youtube.com/watch?v=NlJZ-YgAt-c"
-        }
-      ]
-    },
-    {
-      "titulo": "Filmes",
-      "cor": "orange",
-      "videos": [
-        {
-          "titulo": "Star Wars: The Last Jedi Trailer (Official)",
-          "url": "https://www.youtube.com/watch?v=Q0CbN8sfihY"
-        },
-        {
-          "titulo": "The Hobbit Official Trailer #1 - Lord of the Rings Movie (2012) HD",
-          "url": "https://www.youtube.com/watch?v=JTSoD4BBCJc"
-        },
-        {
-          "titulo": "The Lord of the Rings: The Fellowship of the Ring Official Trailer #1 - (2001) HD",
-          "url": "https://www.youtube.com/watch?v=V75dMMIW2B4"
-        },
-        {
-          "titulo": "Harry Potter and the Sorcerer's Stone - Trailer",
-          "url": "https://www.youtube.com/watch?v=YDmlGIMz5to"
-        },
-        {
-          "titulo": "Animais Fantásticos e Onde Habitam - Trailer Teaser (leg) [HD]",
-          "url": "https://www.youtube.com/watch?v=TiaxfJ7QrIo"
-        },
-        {
-          "titulo": "Toy Story 4 | Official Trailer",
-          "url": "https://www.youtube.com/watch?v=wmiIUN-7qhE"
-        },
-        {
-          "titulo": "O Rei Leão | Trailer 2019| Oficial Disney PT",
-          "url": "https://www.youtube.com/watch?v=J57HnR6FPW0"
-        },
-        {
-          "titulo": "Vingadores: Ultimato | Trailer Legendado",
-          "url": "https://www.youtube.com/watch?v=g6ng8iy-l0U"
-        },
-        {
-          "titulo": "Trailer Legendado A Bela e a Fera – 16 de Março nos Cinemas",
-          "url": "https://www.youtube.com/watch?v=yzHuQPgO3Gs"
-        }
-      ]
-    },
-    {
-      "titulo": "Games",
-      "cor": "red",
-      "videos": [
-        {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-        },
-        {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-        },
-        {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-        },
-        {
-          "titulo": "Official Call of Duty®: Black Ops 4 – Launch Gameplay Trailer",
-          "url": "https://www.youtube.com/watch?v=6kqe2ICmTxc"
-        },
-        {
-          "titulo": "Zombies Reveal Trailer - Official Call of Duty: Black Ops 2 Video",
-          "url": "https://www.youtube.com/watch?v=YH_9GzaUW40"
-        },
-        {
-          "titulo": "The Last of Us - Story Trailer",
-          "url": "https://www.youtube.com/watch?v=W01L70IGBgE"
-        },
-        {
-          "titulo": "THE LAST OF US PART 2 Official Reveal Trailer (4K)",
-          "url": "https://www.youtube.com/watch?v=ru5IU8bGx3A"
-        }
-      ]
-    }
-    
-  ]
-}
+    "categorias": [
+      {
+        "titulo": "Músicas",
+        "link": "https://www.alura.com.br/formacao-front-end",
+        "cor": "#6BD1FF",
+        "videos": [
+          {
+            "titulo": "Circus Maximus - Live In Japan HD",
+            "url": "https://www.youtube.com/watch?v=qjgskpEkmUA"
+          },
+          {
+            "titulo": "Angra - Make Believe Especial",
+            "url": "https://www.youtube.com/watch?v=4emRhgO2ZqI"
+          },
+          {
+            "titulo": "Running Alone - Angra",
+            "url": "https://www.youtube.com/watch?v=3pMcr-Jn5L0"
+          },
+          {
+            "titulo": "The Scarecrow (feat. Jorn Lande, Michael Kiske, Henjo Richter, Michael Rodenberg)",
+            "url": "https://www.youtube.com/watch?v=Dp78bQ3NAn8"
+          },
+          {
+            "titulo": "DREAM THEATER - Barstool Warrior (OFFICIAL ANIMATION VIDEO",
+            "url": "https://www.youtube.com/watch?v=x9b-Qc8e_vk"
+          },
+          {
+            "titulo": "Dream Theayer - Our New World",
+            "url": "https://www.youtube.com/watch?v=JnLdx2FyNqg"
+          },
+          {
+            "titulo": "Stratovarius - Eagleheart [HD] (official video",
+            "url": "https://www.youtube.com/watch?v=UGJV6cJkFcc"
+          }        
+        ]
+      },
+      {
+        "titulo": "Series",
+        "cor": "#00C86F",
+        "videos": [
+          {
+            "titulo": "Trailer Supernatural 1 Temporada",
+            "url": "https://www.youtube.com/watch?v=CX1Wn5zkfI8"
+          },
+          {
+            "titulo": "The 100 | Season 2 Trailer Promocional | Legendado HD",
+            "url": "https://www.youtube.com/watch?v=n0vrIMcMz9Q"
+          },
+          {
+            "titulo": "F.R.I.E.N.D.S Trailer: Season 1 - 4",
+            "url": "https://www.youtube.com/watch?v=hDNNmeeJs1Q"
+          },
+          {
+            "titulo": "Breaking Bad Trailer (First Season)",
+            "url": "https://www.youtube.com/watch?v=HhesaQXLuRY"
+          }, 
+          {
+            "titulo": "La Casa de Papel - Parte 1 - Trailer Dublado",
+            "url": "https://www.youtube.com/watch?v=yKXYXgo7a3I"
+          },
+          {
+            "titulo": "Vikings - Season 3 Trailer #2",
+            "url": "https://www.youtube.com/watch?v=UQm9torR1K8"
+          }
+        ]
+      },
+  
+      {
+        "titulo": "Animes",
+        "cor": "#9cd33b",
+        "videos": [
+          {
+            "titulo": "Naruto Official Trailer",
+            "url": "https://www.youtube.com/watch?v=j2hiC9BmJlQ"
+          },
+          {
+            "titulo": "Trailer - Os Cavaleiros Dos Zodíaco",
+            "url": "https://www.youtube.com/watch?v=hBOYUh7DC6w"
+          },
+          {
+            "titulo": "Dragon Ball GT - Official Trailer",
+            "url": "https://www.youtube.com/watch?v=bKRfxXwtafc"
+          },
+          {
+            "titulo": "Death Note | OFFICIAL TRAILER",
+            "url": "https://www.youtube.com/watch?v=NlJZ-YgAt-c"
+          }
+        ]
+      },
+      {
+        "titulo": "Filmes",
+        "cor": "orange",
+        "videos": [
+          {
+            "titulo": "Star Wars: The Last Jedi Trailer (Official)",
+            "url": "https://www.youtube.com/watch?v=Q0CbN8sfihY"
+          },
+          {
+            "titulo": "The Hobbit Official Trailer #1 - Lord of the Rings Movie (2012) HD",
+            "url": "https://www.youtube.com/watch?v=JTSoD4BBCJc"
+          },
+          {
+            "titulo": "The Lord of the Rings: The Fellowship of the Ring Official Trailer #1 - (2001) HD",
+            "url": "https://www.youtube.com/watch?v=V75dMMIW2B4"
+          },
+          {
+            "titulo": "Harry Potter and the Sorcerer's Stone - Trailer",
+            "url": "https://www.youtube.com/watch?v=YDmlGIMz5to"
+          },
+          {
+            "titulo": "Animais Fantásticos e Onde Habitam - Trailer Teaser (leg) [HD]",
+            "url": "https://www.youtube.com/watch?v=TiaxfJ7QrIo"
+          },
+          {
+            "titulo": "Toy Story 4 | Official Trailer",
+            "url": "https://www.youtube.com/watch?v=wmiIUN-7qhE"
+          },
+          {
+            "titulo": "O Rei Leão | Trailer 2019| Oficial Disney PT",
+            "url": "https://www.youtube.com/watch?v=J57HnR6FPW0"
+          },
+          {
+            "titulo": "Vingadores: Ultimato | Trailer Legendado",
+            "url": "https://www.youtube.com/watch?v=g6ng8iy-l0U"
+          },
+          {
+            "titulo": "Trailer Legendado A Bela e a Fera – 16 de Março nos Cinemas",
+            "url": "https://www.youtube.com/watch?v=yzHuQPgO3Gs"
+          }
+        ]
+      },
+      {
+        "titulo": "Games",
+        "cor": "red",
+        "videos": [
+          {
+            "titulo": "Final Fantasy 7",
+            "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          },
+          {
+            "titulo": "Assassins Creed Valhalla",
+            "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          },
+          {
+            "titulo": "God of War 4",
+            "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          },
+          {
+            "titulo": "Resident Evil 8",
+            "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          },
+          {
+            "titulo": "Pokémon Let's Go Pikachu/Eevee",
+            "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          },
+          {
+            "titulo": "Official Call of Duty®: Black Ops 4 – Launch Gameplay Trailer",
+            "url": "https://www.youtube.com/watch?v=6kqe2ICmTxc"
+          },
+          {
+            "titulo": "Zombies Reveal Trailer - Official Call of Duty: Black Ops 2 Video",
+            "url": "https://www.youtube.com/watch?v=YH_9GzaUW40"
+          },
+          {
+            "titulo": "The Last of Us - Story Trailer",
+            "url": "https://www.youtube.com/watch?v=W01L70IGBgE"
+          },
+          {
+            "titulo": "THE LAST OF US PART 2 Official Reveal Trailer (4K)",
+            "url": "https://www.youtube.com/watch?v=ru5IU8bGx3A"
+          }
+        ]
+      }
+      
+    ]
+  }

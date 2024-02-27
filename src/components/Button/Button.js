@@ -14,9 +14,7 @@ border-radius: 5px;
 text-decoration: none;
 display: inline-block;
 transition: opacity .3s;
-}
-&:hover,
-&:focus {
+}&:focus {
 opacity: .5;
 }
 `;
