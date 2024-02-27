@@ -5,7 +5,7 @@ import { FooterBase, FooterImage } from '../../styles/Footer.styles';
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
+      <a href="https://www.linkedin.com/in/caio-gferreira/">
         <FooterImage src={Logo} alt="Logo Footer" />
       </a>
       <p>
