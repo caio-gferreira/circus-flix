@@ -10,7 +10,7 @@ function getYouTubeId(youtubeURL) {
 }
 
 
-function VideoCard({ videoTitle, videoURL, categoryColor }) {
+function VideoCard({ index, videoTitle, videoURL, categoryColor }) {
   const image = `https://img.youtube.com/vi/${getYouTubeId(videoURL)}/hqdefault.jpg`;
   return (
     <div>
@@ -22,7 +22,7 @@ function VideoCard({ videoTitle, videoURL, categoryColor }) {
         title={videoTitle}
       />
       <label>
-        {videoTitle}
+        Aula {index} - {videoTitle}
       </label>
     </div>
   );

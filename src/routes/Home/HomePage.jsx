@@ -5,9 +5,7 @@ import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
 import dadosIniciais from '../../data/dados_iniciais.json';
 
-const [music, series, animes, moves, games] = dadosIniciais.categorias;
-const [ homeVideo ] = music.videos;
-
+const { categories, homepage } = dadosIniciais;
 
 function Home() {
   return (
@@ -15,35 +13,18 @@ function Home() {
       <Menu />
 
       <BannerMain 
-        videoTitle={homeVideo.titulo}
-        url={homeVideo.url}
-        videoDescription={"Circus Maximus"} 
+        videoTitle={homepage.title}
+        url={homepage.url}
+        videoDescription={"FATEC - MOGI MIRIM"} 
       />
 
-      <Carousel 
-        ignoreFirstVideo
-        category={music}
-        />
-
-      <Carousel 
-        ignoreFirstVideo
-        category={series}
-      />
-
-      <Carousel 
-        ignoreFirstVideo
-        category={animes}
-      />
-
-      <Carousel 
-        ignoreFirstVideo
-        category={moves}
-      />
-
-      <Carousel 
-        ignoreFirstVideo
-        category={games}
-      />
+      {
+        categories.map(cat => {
+          return (
+            <Carousel category={cat}/>
+          )
+        })
+      }
 
       <Footer />
     </div>

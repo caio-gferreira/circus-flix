@@ -1,177 +1,169 @@
-{
-    "categorias": [
+{ 
+    "homepage": {
+      "title": "PROGRAMAÇÃO e SISTEMAS de INFORMAÇÃO: o mundo tecnológico",
+      "url": "https://www.youtube.com/watch?v=ML1fgVfxuRU&t=66s"
+    },
+    "categories": [
       {
-        "titulo": "Músicas",
-        "link": "https://www.alura.com.br/formacao-front-end",
-        "cor": "#6BD1FF",
+        "title": "Programação C",
+        "color": "#6BD1FF",
         "videos": [
           {
-            "titulo": "Circus Maximus - Live In Japan HD",
-            "url": "https://www.youtube.com/watch?v=qjgskpEkmUA"
+            "title": "Ambiente",
+            "url": "https://www.youtube.com/watch?v=ylQv2mkgSRo&list=PLyFXy76psqHh7jS36XVSon668hIfcU2vs"
           },
           {
-            "titulo": "Angra - Make Believe Especial",
-            "url": "https://www.youtube.com/watch?v=4emRhgO2ZqI"
+            "title": "Meu primeiro programa",
+            "url": "https://www.youtube.com/watch?v=F3gBS_4_eiY&list=PLyFXy76psqHh7jS36XVSon668hIfcU2vs&index=2"
           },
           {
-            "titulo": "Running Alone - Angra",
-            "url": "https://www.youtube.com/watch?v=3pMcr-Jn5L0"
+            "title": "Tipos de Dados - Parte 1",
+            "url": "https://www.youtube.com/watch?v=xHiYOjF8CkQ&list=PLyFXy76psqHh7jS36XVSon668hIfcU2vs&index=3"
           },
           {
-            "titulo": "The Scarecrow (feat. Jorn Lande, Michael Kiske, Henjo Richter, Michael Rodenberg)",
-            "url": "https://www.youtube.com/watch?v=Dp78bQ3NAn8"
+            "title": "Tipos de Dados - Parte 2",
+            "url": "https://www.youtube.com/watch?v=4xNsdEWcnmQ&list=PLyFXy76psqHh7jS36XVSon668hIfcU2vs&index=4"
           },
           {
-            "titulo": "DREAM THEATER - Barstool Warrior (OFFICIAL ANIMATION VIDEO",
-            "url": "https://www.youtube.com/watch?v=x9b-Qc8e_vk"
+            "title": "Tipos de Dados - Parte 3",
+            "url": "https://www.youtube.com/watch?v=SWiINPc5g44&list=PLyFXy76psqHh7jS36XVSon668hIfcU2vs&index=5"
           },
           {
-            "titulo": "Dream Theayer - Our New World",
-            "url": "https://www.youtube.com/watch?v=JnLdx2FyNqg"
+            "title": "Testes e Condições",
+            "url": "https://www.youtube.com/watch?v=PrIWHYcC_c0&list=PLyFXy76psqHh7jS36XVSon668hIfcU2vs&index=6"
           },
           {
-            "titulo": "Stratovarius - Eagleheart [HD] (official video",
-            "url": "https://www.youtube.com/watch?v=UGJV6cJkFcc"
+            "title": "Laços",
+            "url": "https://www.youtube.com/watch?v=7ca7UvJJoSQ&list=PLyFXy76psqHh7jS36XVSon668hIfcU2vs&index=10"
           }        
         ]
       },
       {
-        "titulo": "Series",
-        "cor": "#00C86F",
+        "title": "Rede de Computadores",
+        "color": "#00C86F",
         "videos": [
           {
-            "titulo": "Trailer Supernatural 1 Temporada",
-            "url": "https://www.youtube.com/watch?v=CX1Wn5zkfI8"
+            "title": "O QUE É UMA REDE DE COMPUTADORES?",
+            "url": "https://www.youtube.com/watch?v=sxp3jfaV7TA&list=PLG_7LYUryUI1coU_8JZffCHspvDwZUbcC"
           },
           {
-            "titulo": "The 100 | Season 2 Trailer Promocional | Legendado HD",
-            "url": "https://www.youtube.com/watch?v=n0vrIMcMz9Q"
+            "title": "Redes de Computadores explicado",
+            "url": "https://www.youtube.com/watch?v=n0vrIMcMz9Qhttps://www.youtube.com/watch?v=q0S75nKpmcw&list=PLG_7LYUryUI1coU_8JZffCHspvDwZUbcC&index=2"
           },
           {
-            "titulo": "F.R.I.E.N.D.S Trailer: Season 1 - 4",
-            "url": "https://www.youtube.com/watch?v=hDNNmeeJs1Q"
+            "title": "EQUIPAMENTOS DE REDE?",
+            "url": "https://www.youtube.com/watch?v=wx4EskDVksQ&list=PLG_7LYUryUI1coU_8JZffCHspvDwZUbcC&index=3"
           },
           {
-            "titulo": "Breaking Bad Trailer (First Season)",
-            "url": "https://www.youtube.com/watch?v=HhesaQXLuRY"
+            "title": "LAN MAN e WAN",
+            "url": "https://www.youtube.com/watch?v=jxA9u3-0mr0&list=PLG_7LYUryUI1coU_8JZffCHspvDwZUbcC&index=5"
           }, 
           {
-            "titulo": "La Casa de Papel - Parte 1 - Trailer Dublado",
-            "url": "https://www.youtube.com/watch?v=yKXYXgo7a3I"
+            "title": "HUB, SWITCH e ROTEADOR",
+            "url": "https://www.youtube.com/watch?v=BmBPhA5b-Lc&list=PLG_7LYUryUI1coU_8JZffCHspvDwZUbcC&index=6"
           },
           {
-            "titulo": "Vikings - Season 3 Trailer #2",
-            "url": "https://www.youtube.com/watch?v=UQm9torR1K8"
+            "title": "PONTO DE ACESSO",
+            "url": "https://www.youtube.com/watch?v=zrtjTTRH5p4&list=PLG_7LYUryUI1coU_8JZffCHspvDwZUbcC&index=8"
+          },
+          {
+            "title": "MODELO OSI",
+            "url": "https://www.youtube.com/watch?v=bmgvIlvVAlc&list=PLG_7LYUryUI1coU_8JZffCHspvDwZUbcC&index=12"
+          },
+          {
+            "title": "OSI x TCP/IP",
+            "url": "https://www.youtube.com/watch?v=zrtjTTRH5p4&list=PLG_7LYUryUI1coU_8JZffCHspvDwZUbcC&index=8"
+          },
+          {
+            "title": "SIMPLEX, HALF-DUPLEX AND FULL DUPLEX",
+            "url": "https://www.youtube.com/watch?v=DrrEh4T1-JY&list=PLG_7LYUryUI1coU_8JZffCHspvDwZUbcC&index=18"
+          },
+          {
+            "title": "FUNÇÕES da CAMADA de ENLACE",
+            "url": "https://www.youtube.com/watch?v=e7pzTuqurYo&list=PLG_7LYUryUI1coU_8JZffCHspvDwZUbcC&index=20"
           }
         ]
       },
   
       {
-        "titulo": "Animes",
-        "cor": "#9cd33b",
+        "title": "Engenharia de Software",
+        "color": "#9cd33b",
         "videos": [
           {
-            "titulo": "Naruto Official Trailer",
-            "url": "https://www.youtube.com/watch?v=j2hiC9BmJlQ"
+            "title": "Introdução Curso de Engenharia de Software",
+            "url": "https://www.youtube.com/watch?v=wjeHMTfpFcc&list=PLzoythjsH3QMqIa44ZwE8li7Cu0z4lC8E&index=1"
           },
           {
-            "titulo": "Trailer - Os Cavaleiros Dos Zodíaco",
-            "url": "https://www.youtube.com/watch?v=hBOYUh7DC6w"
+            "title": "Processo de Desenvolvimento de Software",
+            "url": "https://www.youtube.com/watch?v=dlsu6chudM4&list=PLzoythjsH3QMqIa44ZwE8li7Cu0z4lC8E&index=3"
           },
           {
-            "titulo": "Dragon Ball GT - Official Trailer",
-            "url": "https://www.youtube.com/watch?v=bKRfxXwtafc"
+            "title": "Desenvolvimento ágil de Softwares",
+            "url": "https://www.youtube.com/watch?v=IPsJmHaYriQ&list=PLzoythjsH3QMqIa44ZwE8li7Cu0z4lC8E&index=13"
           },
           {
-            "titulo": "Death Note | OFFICIAL TRAILER",
-            "url": "https://www.youtube.com/watch?v=NlJZ-YgAt-c"
+            "title": "Engenharia de Requisitos",
+            "url": "https://www.youtube.com/watch?v=kAaz2vUzvho&list=PLzoythjsH3QMqIa44ZwE8li7Cu0z4lC8E&index=17"
+          },
+          {
+            "title": "Projeto de Arquitetura",
+            "url": "https://www.youtube.com/watch?v=kAaz2vUzvho&list=PLzoythjsH3QMqIa44ZwE8li7Cu0z4lC8E&index=17"
+          },
+          {
+            "title": "Teste de Software",
+            "url": "https://www.youtube.com/watch?v=kAaz2vUzvho&list=PLzoythjsH3QMqIa44ZwE8li7Cu0z4lC8E&index=17"
+          },
+          {
+            "title": "Evolução de Software",
+            "url": "https://www.youtube.com/watch?v=kAaz2vUzvho&list=PLzoythjsH3QMqIa44ZwE8li7Cu0z4lC8E&index=17"
+          },
+          {
+            "title": "Evolução de Software pt 2",
+            "url": "https://www.youtube.com/watch?v=kAaz2vUzvho&list=PLzoythjsH3QMqIa44ZwE8li7Cu0z4lC8E&index=17"
           }
         ]
       },
       {
-        "titulo": "Filmes",
-        "cor": "orange",
+        "title": "Programação Orientada Objetos",
+        "color": "orange",
         "videos": [
           {
-            "titulo": "Star Wars: The Last Jedi Trailer (Official)",
-            "url": "https://www.youtube.com/watch?v=Q0CbN8sfihY"
+            "title": "Apresentação",
+            "url": "https://www.youtube.com/watch?v=IldU6EJ-CVk&list=PLxI8Can9yAHcC0iaIe4ijXkh_iC3hracj"
           },
           {
-            "titulo": "The Hobbit Official Trailer #1 - Lord of the Rings Movie (2012) HD",
-            "url": "https://www.youtube.com/watch?v=JTSoD4BBCJc"
+            "title": "Paradigmas de Programação e Introdução",
+            "url": "https://www.youtube.com/watch?v=9czhqT7OyUs&list=PLxI8Can9yAHcC0iaIe4ijXkh_iC3hracj&index=2"
           },
           {
-            "titulo": "The Lord of the Rings: The Fellowship of the Ring Official Trailer #1 - (2001) HD",
-            "url": "https://www.youtube.com/watch?v=V75dMMIW2B4"
+            "title": "Java e Frameworks de Desenvolvimento",
+            "url": "https://www.youtube.com/watch?v=9czhqT7OyUs&list=PLxI8Can9yAHcC0iaIe4ijXkh_iC3hracj&index=2"
           },
           {
-            "titulo": "Harry Potter and the Sorcerer's Stone - Trailer",
-            "url": "https://www.youtube.com/watch?v=YDmlGIMz5to"
+            "title": "Classes e Objetos",
+            "url": "https://www.youtube.com/watch?v=GHLFEhdk7Ys&list=PLxI8Can9yAHcC0iaIe4ijXkh_iC3hracj&index=4"
           },
           {
-            "titulo": "Animais Fantásticos e Onde Habitam - Trailer Teaser (leg) [HD]",
-            "url": "https://www.youtube.com/watch?v=TiaxfJ7QrIo"
+            "title": "Encapsulamento e Ocultação de Informação",
+            "url": "https://www.youtube.com/watch?v=GHLFEhdk7Ys&list=PLxI8Can9yAHcC0iaIe4ijXkh_iC3hracj&index=4"
           },
           {
-            "titulo": "Toy Story 4 | Official Trailer",
-            "url": "https://www.youtube.com/watch?v=wmiIUN-7qhE"
+            "title": "Herança e Polimorfismo",
+            "url": "https://www.youtube.com/watch?v=GHLFEhdk7Ys&list=PLxI8Can9yAHcC0iaIe4ijXkh_iC3hracj&index=4"
           },
           {
-            "titulo": "O Rei Leão | Trailer 2019| Oficial Disney PT",
-            "url": "https://www.youtube.com/watch?v=J57HnR6FPW0"
+            "title": "Interfaces e Classes Abstratas",
+            "url": "https://www.youtube.com/watch?v=GHLFEhdk7Ys&list=PLxI8Can9yAHcC0iaIe4ijXkh_iC3hracj&index=4"
           },
           {
-            "titulo": "Vingadores: Ultimato | Trailer Legendado",
-            "url": "https://www.youtube.com/watch?v=g6ng8iy-l0U"
+            "title": "Exceções",
+            "url": "https://www.youtube.com/watch?v=GHLFEhdk7Ys&list=PLxI8Can9yAHcC0iaIe4ijXkh_iC3hracj&index=4"
           },
           {
-            "titulo": "Trailer Legendado A Bela e a Fera – 16 de Março nos Cinemas",
-            "url": "https://www.youtube.com/watch?v=yzHuQPgO3Gs"
+            "title": "Programação Java para Redes de Computadores",
+            "url": "https://www.youtube.com/watch?v=GHLFEhdk7Ys&list=PLxI8Can9yAHcC0iaIe4ijXkh_iC3hracj&index=4"
           }
         ]
-      },
-      {
-        "titulo": "Games",
-        "cor": "red",
-        "videos": [
-          {
-            "titulo": "Final Fantasy 7",
-            "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-          },
-          {
-            "titulo": "Assassins Creed Valhalla",
-            "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-          },
-          {
-            "titulo": "God of War 4",
-            "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-          },
-          {
-            "titulo": "Resident Evil 8",
-            "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-          },
-          {
-            "titulo": "Pokémon Let's Go Pikachu/Eevee",
-            "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-          },
-          {
-            "titulo": "Official Call of Duty®: Black Ops 4 – Launch Gameplay Trailer",
-            "url": "https://www.youtube.com/watch?v=6kqe2ICmTxc"
-          },
-          {
-            "titulo": "Zombies Reveal Trailer - Official Call of Duty: Black Ops 2 Video",
-            "url": "https://www.youtube.com/watch?v=YH_9GzaUW40"
-          },
-          {
-            "titulo": "The Last of Us - Story Trailer",
-            "url": "https://www.youtube.com/watch?v=W01L70IGBgE"
-          },
-          {
-            "titulo": "THE LAST OF US PART 2 Official Reveal Trailer (4K)",
-            "url": "https://www.youtube.com/watch?v=ru5IU8bGx3A"
-          }
-        ]
-      }
-      
+      } 
     ]
   }

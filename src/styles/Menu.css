@@ -1,9 +1,10 @@
 .Logo {
-    height: 40px;
+    margin-top: 10px;
+    height: 80px;
 }
 
 .Logo {
-    max-width: 168px;
+    max-width: 200px;
   }
   @media (max-width: 800px) {
     .Logo {
@@ -28,7 +29,7 @@
     padding-right: 5%;
   
     background: var(--black);
-    border-bottom: 2px solid #50fa7b;
+    border-bottom: 2px solid rgb(232, 46, 41);
   }
   body {
     --bodyPaddingTop: 94px;
@@ -71,7 +72,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: #50fa7b;
+      background: rgb(232, 46, 41);
       border-radius: 0;
       border: 0;
       text-align: center;

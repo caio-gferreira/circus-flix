@@ -1,41 +1,28 @@
 import React from 'react';
-import { VideoCardGroupContainer, VideoCardList, Title, ExtraLink } from '../../styles/Carousel.styles';
+import { VideoCardGroupContainer, VideoCardList, Title } from '../../styles/Carousel.styles';
 import VideoCard from './VideoCard/VideoCard';
 
-function VideoCardGroup({
-  ignoreFirstVideo,
-  category,
-}) {
-  const categoryTitle = category.titulo;
-  const categoryColor = category.cor;
-  const categoryExtraLink = category.link_extra;
-  const videos = category.videos;
+function VideoCardGroup({ category }) {
+  const { title, color, videos } = category;
+
+
   return (
     <VideoCardGroupContainer>
-      {categoryTitle && (
-        <>
-          <Title style={{ backgroundColor: categoryColor || 'red' }}>
-            {categoryTitle}
-          </Title>
-          {categoryExtraLink && 
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
-              {categoryExtraLink.text}  
-            </ExtraLink>
-          }
-        </>
+      {title && (
+        <Title style={{ backgroundColor: color || 'red' }}>
+          {title}
+        </Title>
       )}
+      
       <VideoCardList>
         {videos.map((video, index) => {
-          if (ignoreFirstVideo && index === 0) {
-            return null;
-          }
-
           return (
-            <li key={video.titulo}>
+            <li key={video.title}>
               <VideoCard
-                videoTitle={video.titulo}
+                index={index}
+                videoTitle={video.title}
                 videoURL={video.url}
-                categoryColor={categoryColor}
+                color={color}
               />
             </li>
           );
