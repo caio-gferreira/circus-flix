@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Circusflix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Como Rodar (npm)
 
-## Available Scripts
+Para rodar o projeto, siga os seguintes passos:
 
-In the project directory, you can run:
+1. Certifique-se de ter o Node.js e o npm instalados em sua máquina.
+2. Clone o repositório do projeto para sua máquina local.
+3. Execute o comando `npm install` para instalar as dependências do projeto.
+4. Após a instalação das dependências, execute o comando `npm start` para iniciar o servidor de desenvolvimento.
+5. O projeto estará disponível no navegador em `http://localhost:3000`.
 
-### `npm start`
+## Sobre o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O projeto consiste em um protótipo de uma plataforma de estudos para a área de Análise e Desenvolvimento de Sistemas (ADS). A plataforma tem como objetivo fornecer recursos e ferramentas para estudantes área aprimorarem seus conhecimentos e habilidades em programação, desenvolvimento de sistemas e tecnologias relacionadas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Funcionalidades Principais:
 
-### `npm test`
+- **Login de Usuário**: Permitir que os usuários se autentiquem na plataforma para acessar conteúdos e recursos exclusivos.
+- **Explorar Cursos**: Oferecer uma variedade de cursos e materiais de estudo relacionados a ADS, organizados por temas e níveis de dificuldade.
+- **Recursos de Aprendizagem**: Disponibilizar recursos de aprendizagem, como vídeos, artigos, tutoriais e exercícios práticos.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tecnologias Utilizadas:
 
-### `npm run build`
+- **React.js**: Framework JavaScript para interfaces de usuário dinâmicas e responsivas.
+- **React Router**: Biblioteca para gerenciamento de rotas em aplicações React.
+- **Node.js e npm**: Ambiente de execução JavaScript no servidor e gerenciador de pacotes para instalação de dependências.
+- **HTML e CSS**: Linguagens de marcação e estilização para estruturar e estilizar o conteúdo da aplicação.
+- **Material-UI**: Biblioteca de componentes React com design inspirado no Material Design da Google, facilitando a criação de interfaces elegantes e consistentes.
+- **Styled Components**: Biblioteca para criação de componentes estilizados com CSS-in-JS, permitindo o encapsulamento de estilos dentro dos próprios componentes React.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
