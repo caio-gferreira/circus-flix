@@ -1,5 +1,6 @@
-# Circusflix
+![Logo do Markdown](src\img\Logo.png)
 
+Caio Gabriel Ferreira
 ## Como Rodar (npm)
 
 Para rodar o projeto, siga os seguintes passos:
@@ -10,6 +11,44 @@ Para rodar o projeto, siga os seguintes passos:
 4. Após a instalação das dependências, execute o comando `npm start` para iniciar o servidor de desenvolvimento.
 5. O projeto estará disponível no navegador em `http://localhost:3000`.
 
+## Informações Úteis
+
+Este tópico fornece informações relevantes sobre a configuração do projeto e o funcionamento dos arquivos de dados mockados.
+
+### mock_login.json
+
+O arquivo `mock_login.json` contém credenciais de login mockadas para fins de desenvolvimento e teste. Essas credenciais são utilizadas para simular o processo de login na aplicação.
+
+```json
+{
+    "email_mock": "testerson@email.com",
+    "password_mock": "testerson"
+}
+```
+
+### dados_iniciais.json
+
+O arquivo `dados_iniciais.json` contém informações iniciais para configuração da aplicação, como o título e URL do vídeo da página inicial, bem como categorias e vídeos associados a elas. Esses dados são utilizados para preencher o conteúdo inicial da aplicação e podem ser modificados conforme necessário.
+```json
+{ 
+    "homepage": {
+      "title": "TITULO VIDEO",
+      "url": "URL YOUTUBE"
+    },
+    "categories": [
+      {
+        "title": "TITULO CATEGORIA",
+        "color": "#6BD1FF",
+        "videos": [
+          {
+            "title": "TITULO VIDEO",
+            "url": "URL YOUTUBE"
+          }
+        ]
+      }
+    ]
+}
+```
 ## Sobre o Projeto
 
 O projeto consiste em um protótipo de uma plataforma de estudos para a área de Análise e Desenvolvimento de Sistemas (ADS). A plataforma tem como objetivo fornecer recursos e ferramentas para estudantes área aprimorarem seus conhecimentos e habilidades em programação, desenvolvimento de sistemas e tecnologias relacionadas.
