@@ -3,11 +3,11 @@ import Menu from '../../components/Menu';
 import LoginComponent from '../../components/Login/Login';
 
 
-export default function LoginPage() {
+export default function LoginPage({ isAuthenticated, setIsAuthenticated }) {
     return (
         <div>
             <Menu />
-            <LoginComponent />
+            <LoginComponent  isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated} />
         </div>
     )
 }
